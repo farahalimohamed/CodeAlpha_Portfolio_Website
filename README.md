@@ -12,7 +12,7 @@ This project is a clean and responsive portfolio to showcase my work, skills, an
 
 
 ## 🔗 Live Demo
-[Click here to view the website](https://farahalimohamed.github.io/CodeAlpha_Portfolio_Website/)
+[Click here to view the website](https://farahalimohamed.github.io/MyPortfolio/)
 
 ## 📬 Contact
 Feel free to reach out if you have any questions.
