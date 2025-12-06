@@ -334,7 +334,7 @@ main h2 {
     width: 100%;
     height: auto;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .projects-section .heading-section {
@@ -486,8 +486,8 @@ main h2 {
 /* Contact Section */
 .contact-section {
     padding: 60px 0;
-    margin-top: 20rem;
-    margin-bottom: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 }
 
 .section-header {
@@ -612,316 +612,6 @@ footer {
     color: #7ce9e6;
 }
 
-@media (max-width:1600px) {
-    main h1 {
-        font-size: 6rem;
-        letter-spacing: 0;
-    }
-
-    .bento-grid {
-        position: relative;
-        display: grid;
-        height: 90vh;
-    }
-
-    .card-title {
-        font-size: 1.6rem;
-        margin-top: 0;
-    }
-
-    .card-text {
-        line-height: 1.5;
-        font-size: 1rem;
-    }
-
-    .model-box {
-        right: 10%;
-        top: -22%;
-    }
-
-    .intro {
-        min-height: 600px;
-    }
-
-    .time {
-        grid-area: time;
-        min-height: 300px;
-    }
-
-    .projects-section {
-        margin-top: 30rem;
-    }
-
-    .slider .list .item {
-        width: 45rem;
-        height: 25rem;
-    }
-
-    .slider .list {
-        min-width: calc(40rem * var(--quantity));
-    }
-
-    .contact-section {
-        margin-top: 0;
-    }
-}
-
-@media (max-width:1400px) {
-    main h1 {
-        font-size: 6.3rem;
-        letter-spacing: 0;
-    }
-
-    .bento-grid {
-        position: relative;
-        display: grid;
-        height: 80vh;
-    }
-
-    .card-title {
-        font-size: 1.2rem;
-        margin-top: 0;
-    }
-
-    .card-text {
-        line-height: 1.3;
-        font-size: 0.8rem;
-    }
-
-    .model-box {
-        right: 20%;
-        top: 10%;
-    }
-
-    .intro {
-        min-height: 700px;
-    }
-
-    .time {
-        grid-area: time;
-        min-height: 300px;
-    }
-
-    .projects-section {
-        margin-top: 40rem;
-    }
-
-    .slider .list .item {
-        width: 40rem;
-        height: 20rem;
-    }
-
-    .slider .list {
-        display: flex;
-        min-width: calc(30rem * var(--quantity));
-    }
-}
-
-@media (max-width: 768px) {
-    main h1 {
-        display: none;
-    }
-
-    main h2 {
-        display: block;
-        margin-top: -3rem;
-    }
-
-    .bio-section {
-        margin-top: 8rem;
-        margin-bottom: 1rem;
-    }
-
-    .bio {
-        font-size: 0.8rem;
-        max-width: 15rem;
-    }
-
-    .bento-grid {
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "intro"
-            "tech"
-            "time"
-            "passion";
-    }
-
-    .about-section {
-        margin-top: 8rem;
-    }
-
-    .about-title {
-        margin-bottom: 5%;
-        font-size: 3rem;
-    }
-
-    .model-box {
-        right: 3%;
-        top: 30%;
-        scale: 0.7;
-    }
-
-    .projects-section {
-        margin-top: 85rem;
-    }
-
-    .projects-section .heading-section {
-        margin-bottom: 5%;
-        font-size: 3rem;
-    }
-
-    .slider .list .item {
-        width: 20rem;
-        height: 10rem;
-    }
-
-    .slider .list {
-        display: flex;
-        min-width: calc(10rem * var(--quantity));
-    }
-
-    .section-header h3 {
-        font-size: 3rem;
-    }
-
-    .contact-section {
-        margin-top: 0;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .social-link a {
-        padding: 6px 10px;
-        font-size: 0.8rem;
-    }
-
-    .box-icons {
-        display: none;
-    }
-
-    footer {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        padding: 1rem;
-    }
-
-    main h2 {
-        font-size: 6rem;
-    }
-
-    .logo {
-        font-size: 1.2rem;
-    }
-
-    .location p {
-        font-size: 1rem;
-    }
-
-    .contact-btn {
-        padding: 0.4rem 1.5rem;
-        font-size: 0.9rem;
-    }
-
-    .model-box {
-        right: 9%;
-        top: 27%;
-    }
-
-    .contact-section {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .projects-section {
-        margin-bottom: 50px;
-        scale: 0.8;
-    }
-
-    .contact-section {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .project-vidbox video {
-        width: 270px;
-        margin-left: -100px;
-    }
-
-    .project-info {
-        overflow: hidden;
-        padding-left: 0;
-        margin-left: -50px;
-        padding-top: 50px;
-    }
-
-    .project-info h1 {
-        font-size: 20px;
-        max-width: 200px;
-        text-wrap: wrap;
-    }
-
-    .project-info p {
-        font-size: 10px;
-        text-wrap: wrap;
-        max-width: 200px;
-        min-width: 0;
-    }
-
-    .projects-section {
-        margin-bottom: 900px;
-    }
-
-    .project-card {
-        flex-direction: column;
-        margin-left: 25%;
-        gap: 30px;
-    }
-
-    .project-vidbox {
-        min-width: 200px;
-    }
-
-    .project-info {
-        width: 85%;
-        margin-right: -140px;
-        padding-top: 120px;
-        padding-bottom: 110px;
-    }
-
-    .project-info h1 {
-        text-wrap: nowrap;
-        font-size: 1.2rem;
-    }
-
-    .project-info p {
-        max-width: 300px;
-        font-size: 1rem;
-    }
-}
-
-
-@media screen and (max-width: 480px) {
-    .project-card {
-        height: 50%;
-    }
-
-    .project-info p {
-        margin-bottom: 15px;
-    }
-
-    .project-info {
-        margin-left: -80px;
-    }
-}
-
 /* ===== Carousel Section Styling ===== */
 .carousel-hero {
     width: 100%;
@@ -937,7 +627,6 @@ footer {
     width: 100%;
     max-width: 1400px;
     height: 580px;
-    /* زيادة الارتفاع */
     perspective: 1200px;
     position: relative;
     margin-top: 40px;
@@ -954,7 +643,6 @@ footer {
     position: absolute;
     width: 350px;
     height: 480px;
-    /* زيادة الارتفاع */
     left: 50%;
     top: 50%;
     transform-style: preserve-3d;
@@ -1016,7 +704,6 @@ footer {
 .card-image {
     width: 100%;
     height: 150px;
-    /* تقليل الارتفاع */
     background: rgba(19, 19, 20, 0.9);
     border-radius: 10px;
     margin-bottom: 15px;
@@ -1063,12 +750,10 @@ footer {
     font-size: 13px;
     font-family: 'Arial', sans-serif;
     height: 75px;
-    /* ارتفاع ثابت */
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-line-clamp: 4;
-    /* عدد الأسطر */
     -webkit-box-orient: vertical;
     flex: 1;
 }
@@ -1200,6 +885,378 @@ footer {
     transform: scale(1.3);
 }
 
+@media (max-width:1600px) {
+    main h1 {
+        font-size: 6rem;
+        letter-spacing: 0;
+    }
+
+    .bento-grid {
+        position: relative;
+        display: grid;
+        height: 90vh;
+    }
+
+    .card-title {
+        font-size: 1.6rem;
+        margin-top: 0;
+    }
+
+    .card-text {
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+
+    .model-box {
+        right: 10%;
+        top: -22%;
+    }
+
+    .intro {
+        min-height: 600px;
+    }
+
+    .time {
+        grid-area: time;
+        min-height: 300px;
+    }
+
+    .projects-section {
+        margin-top: 30rem;
+    }
+
+    .slider .list .item {
+        width: 45rem;
+        height: 25rem;
+    }
+
+    .slider .list {
+        min-width: calc(40rem * var(--quantity));
+    }
+
+    .contact-section {
+        margin-top: 0;
+    }
+}
+
+@media (max-width:1400px) {
+    main h1 {
+        font-size: 6.3rem;
+        letter-spacing: 0;
+    }
+
+    .bento-grid {
+        position: relative;
+        display: grid;
+        height: 80vh;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+
+    .card-text {
+        line-height: 1.3;
+        font-size: 0.8rem;
+    }
+
+    .model-box {
+        right: 20%;
+        top: 10%;
+    }
+
+    .intro {
+        min-height: 700px;
+    }
+
+    .time {
+        grid-area: time;
+        min-height: 300px;
+    }
+
+    .projects-section {
+        margin-top: 40rem;
+    }
+
+    .slider .list .item {
+        width: 40rem;
+        height: 20rem;
+    }
+
+    .slider .list {
+        display: flex;
+        min-width: calc(30rem * var(--quantity));
+    }
+}
+
+@media (max-width: 1200px) {
+    .projects-section {
+        margin-bottom: 50px;
+        scale: 0.8;
+    }
+
+    .contact-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    main h1 {
+        display: none;
+    }
+
+    main h2 {
+        display: block;
+        margin-top: -3rem;
+    }
+
+    .bio-section {
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    .bio {
+        font-size: 0.8rem;
+        max-width: 85%;
+    }
+
+    .bento-grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "intro"
+            "tech"
+            "time"
+            "passion";
+    }
+
+    .about-section {
+        margin-top: 8rem;
+    }
+
+    .about-title {
+        margin-bottom: 5%;
+        font-size: 3rem;
+    }
+
+    .model-box {
+        right: 3%;
+        top: 30%;
+        scale: 0.7;
+    }
+
+    .projects-section {
+        margin-top: 60rem;
+    }
+
+    .projects-section .heading-section {
+        margin-bottom: 5%;
+        font-size: 3rem;
+    }
+
+    .slider .list .item {
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .slider .list {
+        display: flex;
+        min-width: calc(10rem * var(--quantity));
+    }
+
+    .section-header h3 {
+        font-size: 3rem;
+    }
+
+    .contact-section {
+        margin-top: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .social-link a {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+
+    .box-icons {
+        display: none;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .project-vidbox video {
+        width: 270px;
+        margin-left: -100px;
+    }
+
+    .project-info {
+        overflow: hidden;
+        padding-left: 0;
+        margin-left: -50px;
+        padding-top: 50px;
+    }
+
+    .project-info h1 {
+        font-size: 20px;
+        max-width: 200px;
+        text-wrap: wrap;
+    }
+
+    .project-info p {
+        font-size: 10px;
+        text-wrap: wrap;
+        max-width: 200px;
+        min-width: 0;
+    }
+
+    .project-card {
+        flex-direction: column;
+        margin-left: 25%;
+        gap: 30px;
+    }
+
+    .project-vidbox {
+        min-width: 200px;
+    }
+
+    .project-info {
+        width: 85%;
+        margin-right: -140px;
+        padding-top: 120px;
+        padding-bottom: 110px;
+    }
+
+    .project-info h1 {
+        text-wrap: nowrap;
+        font-size: 1.2rem;
+    }
+
+    .project-info p {
+        max-width: 300px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 1rem;
+    }
+
+    main h2 {
+        font-size: 6rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .location p {
+        font-size: 1rem;
+    }
+
+    .contact-btn {
+        padding: 0.4rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .model-box {
+        right: 9%;
+        top: 27%;
+    }
+
+    .contact-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .carousel-hero {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-left: -1.5rem;
+        width: 100vw;
+    }
+
+    .carousel-item {
+        min-height: 380px !important;
+    }
+
+    .carousel-item .card {
+        padding: 20px;
+        min-height: 360px;
+    }
+
+    .card-image {
+        height: 140px !important;
+    }
+
+    .project-title {
+        font-size: 16px !important;
+    }
+
+    .card-description {
+        font-size: 13px !important;
+    }
+
+    .card-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card-cta {
+        width: 100%;
+    }
+
+    .tech-badge {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
+
+    .carousel-container {
+        height: 420px;
+    }
+
+    .carousel-item {
+        width: 250px;
+        height: 340px;
+    }
+
+    .card-image {
+        height: 110px;
+    }
+
+    .project-title {
+        font-size: 15px;
+        min-height: 36px;
+    }
+
+    .card-description {
+        font-size: 10px;
+        height: 60px;
+        -webkit-line-clamp: 3;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .project-card {
+        height: 50%;
+    }
+
+    .project-info p {
+        margin-bottom: 15px;
+    }
+
+    .project-info {
+        margin-left: -80px;
+    }
+}
+
 /* Responsive Design for Carousel */
 @media (max-width: 1024px) {
     .carousel-container {
@@ -1233,7 +1290,12 @@ footer {
 
 @media (max-width: 768px) {
     .projects-section {
-        margin-bottom: 5px;
+        margin-bottom: -150px;
+    }
+
+    .contact-section {
+        padding-top: 0 !important;
+        margin-bottom: 70px !important;
     }
 
     .carousel-container {
@@ -1308,35 +1370,6 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
-    .projects-section {
-        margin-bottom: 120px;
-    }
-
-    .carousel-container {
-        height: 420px;
-    }
-
-    .carousel-item {
-        width: 250px;
-        height: 340px;
-    }
-
-    .card-image {
-        height: 110px;
-    }
-
-    .project-title {
-        font-size: 15px;
-        min-height: 36px;
-    }
-
-    .card-description {
-        font-size: 10px;
-        height: 60px;
-        -webkit-line-clamp: 3;
-    }
-}
 
 @media (max-width: 768px) {
     [data-aos] {
@@ -1409,5 +1442,162 @@ footer {
 @media (min-width: 1025px) {
     html {
         scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .planet-3D,
+    .model-box,
+    spline-viewer {
+        display: none !important;
+        visibility: hidden !important;
+        height: 0 !important;
+        width: 0 !important;
+        opacity: 0 !important;
+    }
+
+    main {
+        min-height: 70vh !important;
+        height: auto !important;
+        overflow: visible !important;
+    }
+
+    .bio-section {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .intro {
+        min-height: 450px;
+    }
+
+    .carousel-hero {
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .carousel-container {
+        height: auto !important;
+        perspective: none !important;
+        margin-top: 20px;
+    }
+
+    .carousel {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 25px !important;
+        transform: none !important;
+        transform-style: flat !important;
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    .carousel-item {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: 400px !important;
+        left: 23px !important;
+        top: 0 !important;
+        transform: none !important;
+        opacity: 1 !important;
+        transition: none !important;
+        margin: 0 auto !important;
+        display: block !important;
+    }
+
+    .carousel-item .card {
+        width: 100% !important;
+        height: auto !important;
+        min-height: 380px;
+        padding: 25px;
+        margin: 0 auto;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .carousel-item .card::before {
+        animation: none !important;
+        display: none !important;
+    }
+
+    .card-image {
+        height: 160px !important;
+        margin-bottom: 20px;
+    }
+
+    .project-title {
+        font-size: 18px !important;
+        min-height: auto !important;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .card-description {
+        height: auto !important;
+        min-height: 80px;
+        font-size: 14px !important;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        -webkit-line-clamp: none !important;
+        overflow: visible !important;
+        text-overflow: unset !important;
+        text-align: center;
+    }
+
+    .card-tech {
+        justify-content: center;
+        margin-bottom: 20px;
+        min-height: auto;
+    }
+
+    .tech-badge {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .card-buttons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .card-cta {
+        padding: 10px 20px;
+        font-size: 13px;
+        min-height: 40px;
+    }
+
+    .card-number {
+        font-size: 40px;
+        top: 10px;
+        right: 15px;
+    }
+
+    .carousel-controls {
+        display: none !important;
+    }
+
+    .carousel-indicators {
+        display: none !important;
+    }
+
+    .carousel-item:hover .card-image img {
+        filter: none !important;
+        transform: none !important;
+    }
+
+    .card-cta:hover {
+        transform: none !important;
+        box-shadow: none !important;
+    }
+
+    .carousel-hero {
+        width: 100vw;
+        margin-left: -3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 }
